@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09.StyleCss">
+    <ContentPage.Resources>
+        <StyleSheetExtension Source="/style.css"/>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Bienvenidos a Xamarin.Forms con CSS!"
+               StyleClass="lblTitulo"/>
+        <Label x:Name="lbl" Text="By Genaro Valqui"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+        <Button Text="Ok" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>

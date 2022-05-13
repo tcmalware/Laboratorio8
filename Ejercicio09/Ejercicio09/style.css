@@ -1,0 +1,30 @@
+﻿^contentpage {
+    background-color: deepskyblue;
+}
+
+#lbl {
+    background-color: yellow;
+}
+
+stacklayout {
+    background-color: bisque;
+    margin: 20;
+}
+
+.lblTitulo {
+    margin: 5;
+    font-style: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+button {
+    border-color: blueviolet;
+    border-width: 3;
+    color: blue;
+}
+
+stacklayout image {
+    height: 200;
+    width: 200;
+}
